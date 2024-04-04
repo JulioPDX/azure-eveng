@@ -1,0 +1,9 @@
+config:
+  azure-native:location: WestUS2
+  eveng-azure:adminUsername: juliopdx
+  eveng-azure:osImage: canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:latest
+  eveng-azure:passwd:
+    secure: AAABAExc0JLHXkEz7/0H03aF4hu875tWg1kCy8Zf+KiQBZZUWA/AyhIFAjiavLHZYUHk2Q==
+  eveng-azure:servicePort: "80"
+  eveng-azure:vmName: juliopdx-eveng
+  eveng-azure:vmSize: Standard_d4s_v4

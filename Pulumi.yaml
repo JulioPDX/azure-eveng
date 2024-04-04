@@ -1,0 +1,10 @@
+name: eveng-azure
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A Python program to deploy a virtual machine on Azure
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: vm-azure-python
